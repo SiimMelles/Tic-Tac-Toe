@@ -1,0 +1,5 @@
+{
+  "GameName": "TicTacToe",
+  "BoardWidth": 3,
+  "BoardHeight": 3
+}

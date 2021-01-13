@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zPiLjJF91T7xsGEH5vA/ezHEui4dS3+z35xdfHi0a/MelccQxj0jm8qSoSmuWFNvpQ6Cfi/xal29XNHXZcvvtg==",
+  "success": true,
+  "projectFilePath": "/Users/siimmelles/CS/sygis/Prax/JsonTest/JsonTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/siimmelles/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.0.2/microsoft.netcore.app.host.osx-x64.3.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

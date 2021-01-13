@@ -1,0 +1,11 @@
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/obj/Debug/netstandard2.0/ConsoleUI.csprojAssemblyReference.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/obj/Debug/netstandard2.0/ConsoleUI.AssemblyInfoInputs.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/obj/Debug/netstandard2.0/ConsoleUI.AssemblyInfo.cs
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/bin/Debug/netstandard2.0/ConsoleUI.deps.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/bin/Debug/netstandard2.0/ConsoleUI.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/bin/Debug/netstandard2.0/ConsoleUI.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/bin/Debug/netstandard2.0/GameEngine.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/bin/Debug/netstandard2.0/GameEngine.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/obj/Debug/netstandard2.0/ConsoleUI.csproj.CopyComplete
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/obj/Debug/netstandard2.0/ConsoleUI.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleUI/obj/Debug/netstandard2.0/ConsoleUI.pdb

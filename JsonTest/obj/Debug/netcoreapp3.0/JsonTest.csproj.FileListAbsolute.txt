@@ -1,0 +1,11 @@
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/bin/Debug/netcoreapp3.0/JsonTest
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/bin/Debug/netcoreapp3.0/JsonTest.deps.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/bin/Debug/netcoreapp3.0/JsonTest.runtimeconfig.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/bin/Debug/netcoreapp3.0/JsonTest.runtimeconfig.dev.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/bin/Debug/netcoreapp3.0/JsonTest.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/bin/Debug/netcoreapp3.0/JsonTest.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/obj/Debug/netcoreapp3.0/JsonTest.csprojAssemblyReference.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/obj/Debug/netcoreapp3.0/JsonTest.AssemblyInfoInputs.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/obj/Debug/netcoreapp3.0/JsonTest.AssemblyInfo.cs
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/obj/Debug/netcoreapp3.0/JsonTest.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/JsonTest/obj/Debug/netcoreapp3.0/JsonTest.pdb

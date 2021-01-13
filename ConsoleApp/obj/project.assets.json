@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "System.Text.Json/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
+      "ConsoleUI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "GameEngine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleUI.dll": {}
+        }
+      },
+      "GameEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "bin/placeholder/GameEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameEngine.dll": {}
+        }
+      },
+      "MenuSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MenuSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MenuSystem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Text.Json/4.6.0": {
+      "sha512": "4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "type": "package",
+      "path": "system.text.json/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.6.0.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ConsoleUI/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleUI/ConsoleUI.csproj",
+      "msbuildProject": "../ConsoleUI/ConsoleUI.csproj"
+    },
+    "GameEngine/1.0.0": {
+      "type": "project",
+      "path": "../GameEngine/GameEngine.csproj",
+      "msbuildProject": "../GameEngine/GameEngine.csproj"
+    },
+    "MenuSystem/1.0.0": {
+      "type": "project",
+      "path": "../MenuSystem/MenuSystem.csproj",
+      "msbuildProject": "../MenuSystem/MenuSystem.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ConsoleUI >= 1.0.0",
+      "GameEngine >= 1.0.0",
+      "MenuSystem >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/siimmelles/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/siimmelles/CS/sygis/Prax/ConsoleApp/ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "/Users/siimmelles/CS/sygis/Prax/ConsoleApp/ConsoleApp.csproj",
+      "packagesPath": "/Users/siimmelles/.nuget/packages/",
+      "outputPath": "/Users/siimmelles/CS/sygis/Prax/ConsoleApp/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/siimmelles/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/siimmelles/CS/sygis/Prax/ConsoleUI/ConsoleUI.csproj": {
+              "projectPath": "/Users/siimmelles/CS/sygis/Prax/ConsoleUI/ConsoleUI.csproj"
+            },
+            "/Users/siimmelles/CS/sygis/Prax/GameEngine/GameEngine.csproj": {
+              "projectPath": "/Users/siimmelles/CS/sygis/Prax/GameEngine/GameEngine.csproj"
+            },
+            "/Users/siimmelles/CS/sygis/Prax/MenuSystem/MenuSystem.csproj": {
+              "projectPath": "/Users/siimmelles/CS/sygis/Prax/MenuSystem/MenuSystem.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

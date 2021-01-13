@@ -1,0 +1,39 @@
+@page
+@model WebApp.Pages.GamePages.GameIndex
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="padding-bottom: 15px">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Start Game against AI</h5>
+                    <p class="card-text">Start game against computer on 3x3 board.</p>
+                    <a asp-page="./NewGame" asp-route-difficulty="1" class="btn btn-success">Go</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="padding-bottom: 15px">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Start Player vs Player Game</h5>
+                    <p class="card-text">Start game where two players can make moves in turns. 3x3 gameboard.</p>
+                    <a asp-page="./NewGame" asp-route-difficulty="2" class="btn btn-success">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

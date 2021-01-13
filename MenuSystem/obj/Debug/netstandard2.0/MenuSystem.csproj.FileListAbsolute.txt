@@ -1,0 +1,8 @@
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/bin/Debug/netstandard2.0/MenuSystem.deps.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/bin/Debug/netstandard2.0/MenuSystem.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/bin/Debug/netstandard2.0/MenuSystem.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/obj/Debug/netstandard2.0/MenuSystem.csprojAssemblyReference.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/obj/Debug/netstandard2.0/MenuSystem.AssemblyInfoInputs.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/obj/Debug/netstandard2.0/MenuSystem.AssemblyInfo.cs
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/obj/Debug/netstandard2.0/MenuSystem.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/MenuSystem/obj/Debug/netstandard2.0/MenuSystem.pdb

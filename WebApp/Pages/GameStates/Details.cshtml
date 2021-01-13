@@ -1,0 +1,67 @@
+@page
+@model WebApp.Pages.GameStates.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>GameState</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.BoardString)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.BoardString)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.BoardWidth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.BoardWidth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.PlayerOneMove)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.PlayerOneMove)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.GameLost)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.GameLost)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.GameWon)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.GameWon)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.GameTied)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.GameTied)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameState.VsAI)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameState.VsAI)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.GameState.GameStateId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

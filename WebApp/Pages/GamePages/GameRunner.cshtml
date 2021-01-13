@@ -1,0 +1,113 @@
+@page
+@using GameEngine
+@model WebApp.Pages.GamePages.GameRunner
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    
+    @{
+        if (Model.Game.VsAI)
+        {
+            if (Model.Game.GameLost)
+            {
+                <h4 style="text-align: center; color: lime">You Won!</h4>
+            }
+            else if (Model.Game.GameWon)
+            {
+                <h4 style="text-align: center; color: red">AI Won!</h4>
+            }
+            else if (Model.Game.GameTied)
+            {
+                <h4 style="text-align: center; color: deepskyblue">Game Tied!</h4>
+            }    
+        }
+    }
+    @{
+        if (!Model.Game.VsAI)
+        {
+            if (!Model.Game.GameTied && !Model.Game.GameLost && !Model.Game.GameWon)
+            {
+                if (!Model.Game.PlayerOneMove)
+                {
+                    <h4 style="text-align: center; color: gray">Player 1 to move:</h4>
+                }
+                else if (Model.Game.PlayerOneMove)
+                {
+                    <h4 style="text-align: center; color: gray">Player 2 to move:</h4>
+                }
+            }    
+        }
+        
+    }
+    <br>
+    <table id="gameTable" style="width: initial;">
+        <!---
+        <thead class="thead-dark">
+        <tr>
+            <th></th>
+            @for (var x = 0; x < Model.Game.BoardWidth; x++)
+            {
+                <th>
+                    @x
+                </th>
+            }
+        </tr>
+        </thead>
+        --->
+        <tbody>
+        @for (var y = 0; y < Model.Game.BoardWidth; y++)
+        {
+            <tr>
+                <!--<td>@y</td>-->
+                @for (var x = 0; x < Model.Game.BoardWidth; x++)
+                {
+                    if (Model.Game.GameTied || Model.Game.GameLost || Model.Game.GameWon)
+                    {
+                        <td>
+                            <a class="btn btn-secondary btn-lg btn-light" disabled>@Html.Raw(GetGameButtonLabel(Model.Game.Board[y, x]))</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <a asp-page="./GameRunner" asp-route-gameId="@Model.GameId" asp-route-col="@x" asp-route-row="@y" class="btn btn-secondary btn-lg btn-light">@Html.Raw(GetGameButtonLabel(Model.Game.Board[y, x]))</a>
+                        </td>    
+                    }
+                }
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    @functions
+    {
+
+        string GetGameButtonLabel(CellState cellState)
+        {
+            switch (cellState)
+            {
+                case CellState.Empty:
+                    return "&nbsp;";
+                case CellState.X:
+                    return "X";
+                case CellState.O:
+                    return "O";
+            }
+            return "Z";
+        }
+
+    }
+
+</div>
+</body>
+</html>

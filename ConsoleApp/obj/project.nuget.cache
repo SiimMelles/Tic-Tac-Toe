@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/ylqD3Eum16VTn5CprTSslXycJeN13kT8PVogRvNv6SyjjoF+hNP0zxdJY5MJIefhZdHCWWn6h/fwsP4kmDPUw==",
+  "success": true,
+  "projectFilePath": "/Users/siimmelles/CS/sygis/Prax/ConsoleApp/ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/siimmelles/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

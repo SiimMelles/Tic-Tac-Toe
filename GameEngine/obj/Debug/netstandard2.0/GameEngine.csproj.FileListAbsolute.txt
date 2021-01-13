@@ -1,0 +1,8 @@
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/bin/Debug/netstandard2.0/GameEngine.deps.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/bin/Debug/netstandard2.0/GameEngine.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/bin/Debug/netstandard2.0/GameEngine.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/obj/Debug/netstandard2.0/GameEngine.csprojAssemblyReference.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/obj/Debug/netstandard2.0/GameEngine.AssemblyInfoInputs.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/obj/Debug/netstandard2.0/GameEngine.AssemblyInfo.cs
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/obj/Debug/netstandard2.0/GameEngine.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/GameEngine/obj/Debug/netstandard2.0/GameEngine.pdb

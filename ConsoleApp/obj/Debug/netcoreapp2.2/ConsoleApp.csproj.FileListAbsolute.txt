@@ -1,0 +1,17 @@
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.deps.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.runtimeconfig.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.runtimeconfig.dev.json
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csprojAssemblyReference.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.AssemblyInfoInputs.cache
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.AssemblyInfo.cs
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/MenuSystem.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/MenuSystem.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csproj.CopyComplete
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleUI.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/GameEngine.dll
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleUI.pdb
+/Users/siimmelles/CSharp2019/icd0008-2019f/Prax/ConsoleApp/bin/Debug/netcoreapp2.2/GameEngine.pdb
